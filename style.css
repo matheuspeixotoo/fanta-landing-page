@@ -1,0 +1,228 @@
+/*PRIMEIRA SESSÃO*/
+
+@font-face {
+    font-family: Product Sans;
+    src: url('Fonts/Product\ Sans\ Bold.ttf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Product Sans;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    /*overflow-x: hidden;*/
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background: orangered;
+}
+
+.nav-container{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    z-index: 99;
+}
+
+.nav-container a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 50px;
+
+}
+
+.nav-container img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(150deg, rgb(255,166,0), rgb(255,94,0));
+}
+
+.hero h1{
+    color: white;
+    font-size: 25vw;
+}
+
+#fanta{
+    position: absolute;
+    width: 40%;
+    z-index: 2;
+}
+
+#laranja-cortada{
+    position: absolute;
+    width: 15%;
+    top: 10%;
+    left: 32%;
+    z-index: 2;
+}
+
+#laranja{
+    position: absolute;
+    width: 20%;
+    top: 55%;
+    right: 30%;
+    z-index: 3;
+}
+
+#folha{
+    position: absolute;
+    width: 18%;
+    top: 10%;
+    left: 0%;
+    rotate: 60deg;
+}
+
+#folha2{
+    position: absolute;
+    width: 12%;
+    top: 70%;
+    left: 80%;
+    transform: rotate(-90deg);
+}
+
+#folha3{
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    right: 0%;
+}
+
+.hero img{
+    width: 50px;
+}
+
+/*SEGUNDA SESSÃO*/
+
+.two{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: #4d231c;
+    overflow: hidden;
+}
+
+.left-side, .right-side{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    width: 50%;
+    height: 100%;
+}
+
+.left-side svg{
+    width: 90%;
+    transform: rotate(50deg);
+    margin-top: 50vh;
+}
+
+.right-side h2{
+    color: white;
+    font-size: 5vw;
+}
+
+.right-side p{
+    color: white;
+    font-size: 1vw;
+    width: 80%;
+}
+
+/*TERCEIRA SESSÃO*/
+
+.three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 5vh;
+    background: linear-gradient(150deg, rgb(255,166,0), rgb(255,94,0));
+    overflow: hidden;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    background: white;
+    align-items: center;
+    width: 25vw;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
+    height: 70vh;
+    margin-top: 10vh;
+    border-radius: 20px;
+}
+
+.card h3{
+    margin-top: 40vh;
+    font-size: 3vw;
+    color: black;
+}
+
+.card button{
+    margin-top: 2vh;
+    font-size: 1vw;
+    color: black;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 149,0);
+    color: #fff;
+    padding: 1vw 2vw;
+}
+
+#cocacola{
+    position: absolute;
+    top: -15%;
+    width: 35vw;
+    max-width: 350px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#pepsi{
+    position: absolute;
+    top: -15%;
+    width: 35vw;
+    max-width: 350px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.lemon{
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    width: 25vw;
+    transform: translate(-50%, 0%);
+}
