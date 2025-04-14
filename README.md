@@ -47,3 +47,7 @@ Este é um projeto pessoal criado por lazer, inspirado na marca Fanta. A propost
 ## 🔗 Preview
 
 [🔍 Clique aqui para visualizar o projeto](https://matheuspeixotoo.github.io/fanta-landing-page/)
+
+---
+
+Desenvolvido por [Matheus Peixoto](https://github.com/matheuspeixotoo)
